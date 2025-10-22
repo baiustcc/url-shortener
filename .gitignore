@@ -57,8 +57,6 @@ jspm_packages/
 .yarn-integrity
 
 # Environment variables
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -76,7 +74,6 @@ dist
 
 # Gatsby files
 .cache/
-public
 
 # Storybook build outputs
 .out
@@ -154,9 +151,6 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
-.env.production
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -207,7 +201,6 @@ Dockerfile*
 docker-compose*
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -234,3 +227,4 @@ Thumbs.db
 *.backup
 *.bak
 *.tmp
+config.bat
